@@ -55,6 +55,7 @@ body {
 }
 
 #page_main {
+  background-image: none;
   min-height: 70vh;
   place-items: center;
   display: grid;
@@ -65,6 +66,7 @@ body {
   margin-bottom: 50px;
 }
 #page_main > .page_span {
+  background-image: none;
   margin-top: 25px;
   width: 90%;
   display: grid;
@@ -73,6 +75,9 @@ body {
   align-items: center;
   background-color: #C3DBC5;
   border-radius: 25px;
+}
+#page_main > .page_span > .click {
+  color: #E8DCB9;
 }
 #page_main > .page_span > img {
   padding: 30px;
