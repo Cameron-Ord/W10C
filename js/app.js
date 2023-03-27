@@ -51,7 +51,7 @@ function onSpace(main){
         }
 
 
-};
+}
 
 let change_body = document.querySelectorAll(`.page_span`);
 
