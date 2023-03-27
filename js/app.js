@@ -1,12 +1,13 @@
-
-
-
 function makeNew(detail_1){
 
     detail_1[`target`][`style`][`color`] = `#7798AB`;
 
 
 }
+
+
+//this function just changes the color//
+
 
 let one_click = document.querySelectorAll(`.click`);
 
@@ -17,7 +18,12 @@ for(let counter = 0; counter < one_click.length; counter = counter +1){
 
 };
 
+//click class is set to h1 tags//
 
+
+
+
+//mouseover and mouse off that adds and removes a backgroud image//
 
 function mouseOver(background){
 
@@ -44,11 +50,14 @@ for(let counter = 0; counter < bidooftime.length; counter = counter +1){
 };
 
 
+//i dont know how to make this work at all//
+
 function onSpace(main){
 
     if(main[`code`] === `Space`){
         main[`target`][`style`][`background-color`] = `black`;
         }
+return false;
 
 
 }
@@ -65,7 +74,7 @@ for(let counter = 0; counter < change_body.length; counter = counter +1){
 };
 
 
-
+//more background images that appear on dblclicks//
 
 
 
@@ -97,4 +106,3 @@ function addBidoof2(bidoof2){
 let add_bidoof2 = document.querySelector(`#page_footer`);
 
 add_bidoof2.addEventListener(`dblclick`, addBidoof2);
-
