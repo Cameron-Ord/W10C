@@ -84,7 +84,7 @@ add_bidoof2.addEventListener(`dblclick`, addBidoof2);
 
 
 
-
+//a function that changes the background image of the body//
 
 function onSpace(bigdoof){
 
@@ -100,6 +100,8 @@ let body = document.querySelector(`body`);
 body.addEventListener(`keydown`, onSpace);
 
 
+
+//used [`code`] to select the correct input for keydown//
 
 function offSpace(bigdoofus){
 
